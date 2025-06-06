@@ -1,0 +1,62 @@
+Start
+Set largest_number to 0
+Repeat
+ Prompt user to enter a positive number.
+ Read number
+ If number > largest_number then
+    Set largest_number to number
+Until number is equal to 0
+Print "the largest number is", largest_number
+Stop
+
+Start
+Prompt user to enter their name
+Read first_name
+Print "Hello", first_name, "World"
+Stop
+
+Start
+Set total to 0
+Set count to 0
+Repeat
+ Prompt user to enter a number (or type 'done'to finish)
+Read number
+ If number is not 'done' then 
+    Convert number to integer
+    Add number to total
+    Increase count by 1
+Until number is 'done'
+If count > 0 then
+ Set average to total / count
+ Print "Average is", average
+Else
+ Print "No numbers entered"
+Stop
+
+Start
+Create an empty list called grocery_list
+Prompt user to enter grocery items one by one (type 'done' when finished)
+Repeat
+ Read item
+ If item is not 'done' then 
+ Add item to grocery_list
+Until item is 'done'
+Sort grocery_list in alphabetical order
+Print "Items left to buy:"
+For each item in grocery_list
+ Print item
+Stop
+
+Start
+Prompt user to enter value for X
+Read X
+Prompt user to enter value for Y
+Read Y
+Set S = X + Y
+Set A = S/2
+Set P = X * Y
+Print "Sum is", S
+Print "Average is", A
+Print "Product is", P
+Stop
+
